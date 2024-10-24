@@ -8,7 +8,7 @@ import requests
 import json
 
 class Github_Git:
-    """Use to execute git commands and work with an azdo repository"""
+    """Use to execute git commands and work with a github repository"""
     def __init__(self, project:str, username:str, password:str):
         """Initialize enterprise, project, repo_name, repo_id, username, password. Username needs to be the github formatted username.
         Password will be a token, authenticating with user passwords is deprecated."""
